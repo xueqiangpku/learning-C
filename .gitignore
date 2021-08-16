@@ -1,0 +1,39 @@
+#
+# Normal rules
+#
+.*
+!.gitignore
+*.o
+*.o.*
+*.a
+*.s
+*.ko
+*.so
+*.mod.c
+*.i
+*.lst
+*.symtypes
+*.d
+*.orig
+*.rej
+*.gcda
+*.gcno
+*.info
+
+#
+# for GLOBAL
+#
+GTAGS
+GRTAGS
+GPATH
+GSYMS
+#
+# programs
+#
+usr/tgtd
+usr/tgtadm
+usr/tgtimg
+tests/tgtd_utest
+
+# cscope files
+cscope.*
